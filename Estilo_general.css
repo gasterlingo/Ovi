@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+body, html {
+    font-family: TradeGothicLTPro-Bd2, "Helvetica Neue", Helvetica, Helvetica, Arial, sans-serif !important;
+    font-size: 1.25rem !important;
+
+}
+/*cabecera*/
+header {
+    background: url("Imagenes/cabecera.jpg") no-repeat;
+     background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    height: 400px;
+}
+.img-fluid {
+    max-width: 150px;
+    height: 100px;
+}
+.espacio{
+ padding: 20px;
+}
+.session-box {
+    padding: 30px;
+    size: 40px;
+    display: inline-blojck;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 3;
+	top: 0;
+	left: 35%;
+	color: white;
+}
+
+.busqueda{
+	padding: 35px;
+    size: 10px;
+    display: inline-blojck;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.85rem !important;
+	top: 0;
+	right:0%;
+}
+/*Cuerpo imagen de fondo*/
+.cuerpo {
+    background: url("Imagenes/fondo.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.cuerpo2 {
+    background: url("Imagenes/git.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.cuerpo3 {
+    background: url("Imagenes/fondohtml.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.cuerpo4 {
+    background: url("Imagenes/fondoinfo.jpg") no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.index {
+    background-color: White;
+    background-attachment: fixed;
+    opacity: 0.85;
+    padding: 4%;
+    top: 0%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    overflow-y: scroll;
+    scrollbar-color: #AF1234 #F6F6F6;
+}
+.index2{
+    background-color: White;
+    background-attachment: fixed;
+    opacity: 0.90;
+    padding: 4%;
+    top: 0%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    overflow-y: scroll;
+    scrollbar-color: #AF1234 #F6F6F6;
+}
+.video{
+
+	 opacity: 1;
+	 font-size: 0.65rem !important;
+}
+.rowe {
+    margin: 140px 0px 140px 0px;
+}
+/*imagenes*/
+.imgan {
+    padding: 1.5% 1.5%;
+    margin: 35px 55px 35px 55px;
+    background-color: black;
+    opacity: 0.75;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+}
+.imginicio{
+	max-width: 250px;
+    height: 200px;
+
+}
+.imginicio2{
+	max-width: 200px;
+    height: 200px;
+
+}
+
+
+
+.img1 {
+    padding: 1.5% 1.5%;
+    margin: 35px 55px 35px 55px;
+    background-color: #F6F6F6;
+    opacity: 0.75;
+    border-radius: 10px;
+    text-align: center;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari */
+}
+/*
+.img1:hover {
+    cursor: pointer;
+    -webkit-transform: scale(2, 2);
+    -ms-transform: scale(2, 2);
+    transform: scale(2, 2);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; /* Safari 
+    box-shadow: 10px 10px 5px #888888;
+    z-index: 2;
+}*/
+/*Botones*/
+.bordes{
+	background: transparent;
+    border: none;
+}
+/*textos*/
+.textos{
+    font-size: 0.90rem !important;
+}
+.titulos1{
+	font-size: 1rem !important;
+	color: white;
+	text-align: center;
+	background: gray;
+	opacity: 0.65;
+}
+
+.titulos{
+	font-size: 1rem !important;
+	color: black;
+	
+}
+
+/*Footer*/
+
+.Pagina{
+	border: none;
+	font-size: 1rem !important;
+	color: black;
+}
+footer {
+
+    background-color: black;
+    opacity: 0.85;
+    font-size: 0.75rem !important;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding: 1%;
+}
+
+.menu{
+
+	right: 1%;
+}

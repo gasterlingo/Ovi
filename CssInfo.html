@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Estilo_general.css">
+
+	<title>CSS</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-Dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="Imagenes/indice.jpg" class="img-fluid" ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="nav justify-content-end">
+      <li class="nav-item ">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="informacion.html">Acerca de</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menu
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="CssInfo.html">CSS</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Html.html">HTML</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Github.html">GITHUB</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <form class="form-inline my-2 my-lg-0">
+      <a class="navbar-brand" href="#"><img src="Imagenes/curso.jpg" class="img-fluid" ></a>
+    </form>
+</nav>
+<div class="cuerpo">
+<div class="container"> 
+  <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Historia
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <span class="textos">
+       CSS fue propuesto por primera vez por Håkon Wium Lie el 10 de octubre de 1994.Al mismo tiempo, Lie trabajaba con Tim Berners-Lee en el CERN. Muchos otros lenguajes de hojas de estilos fueron propuestos al mismo tiempo, y las discusiones en las listas de correo públicas dentro del W3C dieron lugar a la primera Recomendación CSS por el W3C (CSS1) en 1996. En particular, la propuesta de Bert Bos fue influyente; él fue el coautor de CSS1 y es reconocido como el cocreador de CSS. <br><br>
+
+       Las hojas de estilo han existido de una forma u otra desde los comienzos del Standard Generalized Markup Language (SGML) en la década de los 80s, y CSS fue desarrollado para proveer hojas de estilos para la web.Un requerimiento para un lenguaje de hoja de estilos web era que las hojas de estilo vinieran en diferentes estilos en la web. Por lo tanto, los lenguajes de hojas de estilos existentes como DSSSL y FOSI no fueron adecuados. CSS, por otro lado, permite al documento ser influido por múltiples hojas de estilo por medio de los estilos en «cascada».</span> <br><br>
+       <center>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/wKQPJCWKttM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+       <br>
+        </center>
+      </div>
+    </div>
+  </div>
+<div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Sintaxis
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <span class="textos">
+          
+          <b>Selectores</b><br>
+          Los selectores declaran qué etiquetas se le aplican los estilos que coincidan con la etiqueta o atributo señalados en la regla. <br><br>
+
+      Los selectores pueden aplicarse a:<br><br>
+
+          Todos los elementos de un tipo, como los párrafos .<br>
+          Elementos seguidos de un atributo, en particular:<br>
+       - id: identificador, un identificador único para la etiqueta. <br>
+       - class: clase, un identificador para anotar múltiples elementos. <br>
+       <div class="dropdown-divider"></div>
+       <b>Bloque de declaraciones</b><br>
+       Un bloque de declaraciones consiste en una lista de declaraciones unidas. Cada declaración consiste en una propiedad, dos puntos (:), y un valor. Si hay muchas declaraciones en un bloque, un punto y coma (;) es insertado para separar cada declaración. <br>
+
+      Las propiedades son insertadas en el estándar CSS. Cada propiedad tiene un conjunto de posibles valores. Algunas propiedades afectan a cualquier elemento, otras solo a un grupo particular de elementos. Los valores pueden ser palabras clave, como "center" o "inherit", o valores numéricos, como 200px (200 píxeles) o 80% (80 por ciento del ancho de la ventana). Los valores de colores son especificados por medio de una palabra clave (ej. "red"), de valores hexadecimales (ej. #FF0000, pudiéndose abreviar como #F00), valores RGB en una escala del 0 al 255 (ej. rgb(255, 0, 0)), valores RGBA igual que los valores RGB pero con soporte para el canal alfa de transparencias (ej. rgba(255, 0, 0, 0.8)), y valores HSL o HSLA (ej. hsl(000, 100%, 50%), hsla(000, 100%, 50%, 80%)).<br><br>
+      <div class="dropdown-divider"></div>
+
+      <b>Uso</b> <br>
+        Antes del desarrollo de CSS, toda la información presentacional de los documentos HTML era incluida en el código HTML. Los colores de las fuentes, los estilos de fondo, la alineación de los elementos, los bordes y tamaños eran descritos explícitamente, a veces de manera redundante, dentro del HTML. CSS permite a los diseñadores mover toda la información presentacional a otro archivo, la hoja de estilos, resultando en un código HTML notablemente más simple. <br><br> <div class="dropdown-divider"></div>
+        <b>Fuentes</b>
+        <br>
+        Los estilos CSS puede ser provistos desde varias fuentes. Esas fuentes pueden ser el navegador web, el usuario y el diseñador. La información del diseñador puede ser clasificada de las siguientes formas: inline, media type, importancia, especificidad del selector, orden de reglas, herencia y definición de propiedades. La información de los estilos CSS puede estar en un documento separado o puede estar embebido dentro de un documento HTML. Múltiples hojas de estilos pueden ser importadas al mismo tiempo. Los diferentes estilos pueden ser aplicados dependiendo de la salida del dispositivo usado en ese momento; por ejemplo, la versión para monitores puede ser diferente de la versión impresa, así que los diseñadores pueden aplicar diferentes estilos dependiendo del dispositivo usado.
+
+        <br><br> <div class="dropdown-divider"></div>
+
+        <b>Especificidad</b> <br>
+          La especificidad se refiere a los pesos relativos de varias reglas. Determina que estilos se aplican a un elemento cuando más de una regla intentan aplicar estilos a ella. Basándose en la especificación, un simple selector (h1, por ejemplo) tiene una especificidad de 1, los selectores de clase tienen una especificidad de 1,0, y los selectores de id una especificidad de 1,0,0. Porque los valores de especificidad no se acarrean como en el sistema decimal, las comas son usadas para separar los "dígitos" (una regla CSS que tiene 11 elementos y 11 clases tiene una especificidad de 11,11, no 121). 
+         <br><br> <div class="dropdown-divider"></div>
+
+         <b>Herencia</b> <br>
+         La herencia es una característica clave en CSS; basada en la relación ancestro-descendiente para operar. La herencia es el mecanismo por el cual las propiedades no sólo se aplican a un solo elemento, sino también a sus descendientes. La herencia se basa en el árbol del documento, el cual es la jerarquía de los elementos XHTML en una página basada en el anidamiento. Los elementos descendientes pueden heredar los valores de las propiedades CSS de un elemento ancestro. En general, los elementos descendientes heredan las propiedades relacionadas al texto, pero las propiedades relacionadas a la caja no. Las propiedades que pueden ser heredadas son el color, fuente, espaciado, el peso de la línea, propiedades de lista, alineación del texto, identado, visibilidad, espaciado de espacios and y espaciado entre palabras. Las propiedades que no pueden ser heredadas son el fondo, bordes, visualización, posicionamiento, tamaño, márgenes, tamaño mínimo y máximo, outline, desbordamiento, relleno, posición, alineación vertical y z-index.
+
+         <br><br> <div class="dropdown-divider"></div>
+
+         <b>Posicionamiento</b>
+         CSS 2.1 define 3 esquemas de posicionamiento: <br>
+         - Normal <br>
+         - Flotante <br>
+         - Absoluto <br> <br>
+         <b>Propiedades de posicionamiento </b> <br>
+         - Static <br>
+         - Relative <br>
+         - Absolute <br>
+         - Fixed <br>
+         - Float y clear <br>
+         - left <br>
+         - right <br>
+         - clear <br>
+
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Niveles
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <span class="textos">
+
+          CSS se ha creado en varios niveles y perfiles. Cada nivel de CSS se construye sobre el anterior, generalmente añadiendo funciones al nivel previo. <br>
+          <b>CSS1</b><br>
+          Algunas de las funcionalidades que ofrece son:<br>
+
+    Propiedades de las fuentes, como tipo, tamaño, énfasis... <br>
+    Color de texto, fondos, bordes u otros elementos. <br>
+    Atributos del texto, como espaciado entre palabras, letras, líneas, etcétera. <br>
+    Alineación de textos, imágenes, tablas u otros. <br>
+    Propiedades de caja, como margen, borde, relleno o espaciado. <br>
+    Propiedades de identificación y presentación de listas. 
+    <br><br> <div class="dropdown-divider"></div>
+        <b>CSS2</b> <br>
+          Como ampliación de CSS1, se ofrecieron, entre otras:<br>
+
+      Las funcionalidades propias de las capas (<div>) como de posicionamiento relativo/absoluto/fijo, niveles (z-index), etcétera. <br>
+      El concepto de "media types". <br>
+      Soporte para las hojas de estilo auditivas. <br>
+      Texto bidireccional, sombras, etcétera. 
+<br><br> <div class="dropdown-divider"></div>
+        <b>CSS 2.1</b><br>
+        La primera revisión de CSS2, usualmente conocida como "CSS 2.1", corrige algunos errores encontrados en CSS2, elimina funcionalidades poco soportadas o inoperables en los navegadores y añade alguna nueva especificación. <br><br>
+
+        De acuerdo al sistema de estandarización técnica de las especificaciones, CSS2.1 tuvo el estado de "candidato" (candidate recommendation) durante varios años, pero la propuesta fue rechazada en junio de 2005. En junio de 2007 fue propuesta una nueva versión candidata, y está actualizada en 2009, pero en diciembre de 2010 fue nuevamente rechazada. 
+        <br><br> <div class="dropdown-divider"></div>
+        <b>CSS3.1</b> <br>
+        A diferencia de CSS2, que fue una única especificación que definía varias funcionalidades, CSS3.1 está dividida en varios documentos separados, llamados "módulos". <br>
+
+        Cada módulo añade nuevas funcionalidades a las definidas en CSS2, de manera que se preservan las anteriores para mantener la compatibilidad. <br>
+
+        Los trabajos en el CSS3.1, comenzaron a la vez que se publicó la recomendación oficial de CSS2, y los primeros borradores de CSS3.1 fueron liberados en junio de 1999. <br>
+        Debido a la modularización del CSS3.1, diferentes módulos pueden encontrarse en diferentes estados de su desarrollo,27​ de forma que a fechas de noviembre de 2011, hay alrededor de cincuenta módulos publicados, tres de ellos se convirtieron en recomendaciones oficiales de la W3C en 2011: "Selectores", "Espacios de nombres" y "Color". <br>
+        Algunos módulos, como "Fondos y colores", "Consultas de medios" o "Diseños multicolumna" están en fase de "candidatos", y considerados como razonablemente estables, a finales de 2011, y sus implementaciones en los diferentes navegadores son señaladas con los prefijos del motor del mismo. <br>
+        </span>
+      </div>
+  </div>
+</div>
+   <div class="card">
+    <div class="card-header" id="headingFour">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Limitaciones
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        <b>Limitaciones no resueltas</b>
+        Algunas de las limitaciones conocidas de las capacidades actuales de CSS son: <br>
+       - Los selectores no pueden ascender <br>
+       - Las pseudoclases dinámicas no se pueden controlar <br>
+       - No se pueden nombrar estilos CSS <br>
+       - No se pueden incluir estilos de una regla dentro de otra <br>
+       - No se puede seleccionar texto específico sin alterar el marcado 
+       <br><br> <div class="dropdown-divider"></div>
+       <b>Limitaciones resueltas</b> <br>
+       También hay limitaciones que ya han sido resueltas: <br>
+       - Alineado vertical <br>
+       - Ausencia de expresiones <br>
+       - Ausencia de la declaración de columnas de texto <br>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Ventajas
+        </button>
+      </h5>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        - Separación del contenido y la presentación <br>
+        - Consistencia del sitio <br>
+        - Ancho de banda <br>
+        - Formateo de página <br>
+        - Accesibilidad <br>
+      </div>
+    </div>
+  </div>
+   <div class="card">
+    <div class="card-header" id="headingSix">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+          Soporte Por navegadores a Css:
+        </button>
+      </h5>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+      <div class="card-body">
+        <center><img src="Imagenes/Navegadores.jpg" class="" ></center>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<footer>
+            <label>&#169; 2019 todos los derechos reservados</label>
+        </footer>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script type="text/javascript" src="mdb.min.js"></script>
+</body>
+</html>
